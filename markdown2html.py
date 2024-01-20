@@ -1,26 +1,12 @@
 #!/usr/bin/python3
-"""
-Markdown to HTML script.
-
-Usage:
-    ./markdown2html.py <input_file> <output_file>
-
-Arguments:
-    <input_file>: The name of the Markdown file.
-    <output_file>: The name of the HTML output file.
-"""
+'''Start a script'''
 import sys
 import os
 import markdown
 
-def convert_markdown_to_html(input_file, output_file):
-    """
-    Convert Markdown to HTML.
 
-    Args:
-        input_file (str): The name of the Markdown file.
-        output_file (str): The name of the HTML output file.
-    """
+def convert_markdown_to_html(input_file, output_file):
+    '''convert_markdown_to_html('''
     if not os.path.isfile(input_file):
         print(f"Missing {input_file}", file=sys.stderr)
         sys.exit(1)
@@ -28,6 +14,7 @@ def convert_markdown_to_html(input_file, output_file):
     with open(input_file, 'r') as md_file, open(output_file, 'w') as html_file:
         html_content = markdown.markdown(md_file.read())
         html_file.write(html_content)
+
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
