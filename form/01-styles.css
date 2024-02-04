@@ -802,20 +802,20 @@ ul.row {
 /*** FORM ***/
 /* Comment section
     ============================= */
-.post-comments{
-    width: 80%;
-    margin: 10rem 0 0 auto;
-    padding-left: 7rem;
+.post-comments {
+  width: 80%;
+  margin: 10rem 0 0 auto;
+  padding-left: 7rem;
 }
-.section-title .post-comments{
-    font-variant: small-caps;
+.post-comments .section-title {
+  font-variant: small-caps;
 }
 
 /* Basic form
     ============================= */
-form{
-    display: flex;
-    flex-direction: column;
-    padding: 1rem 0;
-    margin: 0;
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+  margin: 0;
 }
