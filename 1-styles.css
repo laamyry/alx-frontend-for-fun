@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+}
+a {
+    position: relative;
+    color: #ab1c3d;
+    text-decoration: none;
+}
+a:hover {
+  color: #ab1c3d;
+}
+a::before {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 3px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  transform: scaleX(0);
+  background-color: #ab1c3d;
+  transform-origin: top left;
+  transition: transform 0.25s ease;
+}
+a:hover::before {
+  transform: scaleX(1);
+}
