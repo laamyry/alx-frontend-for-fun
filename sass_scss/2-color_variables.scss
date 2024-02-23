@@ -1,6 +1,14 @@
 /* My style */
+$text-color: #3d3d3d;
+$background-color: #6d6d6d;
 body {
-  .container {
-    color: #3D3D3D;
-  }
+  color: $text-color;
+  background-color: $background-color;
+}
+p {
+  color: $text-color;
+}
+
+h1 {
+  background-color: $background-color;
 }
