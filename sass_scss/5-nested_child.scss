@@ -1,6 +1,9 @@
 /* My style */
+$body-text-color: #3d3d3d;
+$red-text-color: #ff0000;
 body {
-  .container {
-    color: #3D3D3D;
+  color: $body-text-color;
+  > .red {
+    color: $red-text-color;
   }
 }
