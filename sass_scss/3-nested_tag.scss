@@ -1,6 +1,11 @@
 /* My style */
-body {
-  .container {
-    color: #3D3D3D;
-  }
+$body-margin : 0px;
+$body-padding:0px;
+$margin:10px;
+body{
+    margin: $body-margin;
+    padding: $body-padding;
+    p{
+        margin: $margin;
+    }
 }
