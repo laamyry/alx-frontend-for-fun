@@ -1,6 +1,7 @@
 /* My style */
-body {
-  .container {
-    color: #3D3D3D;
+@import "./11-photos.scss";
+@each $list in $list-names {
+  .photo-#{$list} {
+    background: image-url("photos/#{$list}.jpg") no-repeat;
   }
 }
