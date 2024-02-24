@@ -1,9 +1,9 @@
 /* My style */
-$btn-text-color: #FF0000;
-$hover-text-color: #00FF00;
+$color1: #FF0000;
+$color2: #00FF00;
 button {
-  color: $btn-text-color;
+  color: $color1;
   &:hover {
-    color: $hover-text-color;
+    color: $color2;
   }
 }
