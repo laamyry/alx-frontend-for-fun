@@ -1,6 +1,13 @@
 /* My style */
+$font-size: 14px;
+$h1-font-size: 16px;
+$smaller-font-size: 12px;
 body {
-  .container {
-    color: #3D3D3D;
+  font-size: $font-size;
+  h1 {
+    font-size: $h1-font-size;
+    &.smaller {
+      font-size: $smaller-font-size;
+    }
   }
 }
