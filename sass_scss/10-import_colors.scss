@@ -1,6 +1,13 @@
 /* My style */
-body {
-  .container {
-    color: #3D3D3D;
-  }
+@import "./10-colors.scss";
+.red {
+  color: $red;
+}
+
+.green {
+  color: $green;
+}
+
+.blue {
+  color: $blue;
 }
