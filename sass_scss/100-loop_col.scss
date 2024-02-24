@@ -1,6 +1,6 @@
 /* My style */
 @for $n from 1 through 4 {
-  col-#{$n} {
-    width: 100%/$n;
+  .col-#{$n} {
+    width: 100% / $n;
   }
 }
