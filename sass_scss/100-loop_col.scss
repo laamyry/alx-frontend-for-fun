@@ -1,6 +1,6 @@
 /* My style */
-body {
-  .container {
-    color: #3D3D3D;
+@for $n from 1 through 4 {
+  col-#{$n} {
+    width: 100%/$n;
   }
 }
