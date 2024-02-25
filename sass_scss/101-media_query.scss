@@ -2,9 +2,8 @@
 $screen-width: 320;
 h1 {
   font-size: 20px;
-}
-@media screen and (max-width: $screen-width) {
-  h1 {
+
+  @media screen and (max-width: $screen-width) {
     font-size: 14px;
   }
 }
