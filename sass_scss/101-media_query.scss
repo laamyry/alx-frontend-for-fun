@@ -1,6 +1,10 @@
 /* My style */
-body {
-  .container {
-    color: #3D3D3D;
+$screen-width: 320;
+h1 {
+  font-size: 20px;
+}
+@media screen and (max-width: $screen-width) {
+  h1 {
+    font-size: 14px;
   }
 }
